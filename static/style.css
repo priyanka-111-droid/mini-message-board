@@ -1,0 +1,21 @@
+*{
+    padding:0;
+    margin:0;
+}
+#main-heading{
+    color:red;
+    padding:20px;
+    text-align: center;
+}
+#main-content{
+    padding:20px;
+}
+#main-content ul li{
+    list-style-type: none;
+}
+p{
+    margin:10px;
+}
+input{
+    margin:20px;
+}

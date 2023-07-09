@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1#main-heading=title
+  div#main-content
+    ul 
+    each val in messages
+      li=val.user
+      li=val.text
+      li=val.added
+      br
+    a(href=`http://localhost:3000/new`) Click here
+
+
